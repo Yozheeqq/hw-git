@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="784d307d-bd35-4b4d-b863-be7770d96f9e" name="Changes" comment="new pattern hw">
-      <change afterPath="$PROJECT_DIR$/hw6-pattern/src/app/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw6-pattern/src/cars/lada/Lada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw6-pattern/src/cars/lada/LadaGranta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw6-pattern/src/cars/lada/LadaVesta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw6-pattern/src/factory/ladafactory/LadaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw6-pattern/src/factory/ladafactory/LadaGrantaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw6-pattern/src/factory/ladafactory/LadaVestaFactory.java" afterDir="false" />
+    <list default="true" id="784d307d-bd35-4b4d-b863-be7770d96f9e" name="Changes" comment="проект переименован">
+      <change afterPath="$PROJECT_DIR$/hw6-pattern-strategy/hw6-pattern-strategy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw6-pattern-strategy/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw6-pattern-strategy/src/color/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw6-pattern-strategy/src/print/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw6-pattern-strategy/src/strategy/PrintStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw6-pattern-strategy/src/strategy/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw6-pattern-strategy/src/strategy/PrinterCanon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw6-pattern-strategy/src/strategy/PrinterXerox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw6-pattern/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw6-pattern/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -41,20 +43,29 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "18"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="hw6-pattern-strategy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="hw6-pattern" />
+      <module name="hw6-pattern-abstract_factory" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -67,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674916529452</updated>
-      <workItem from="1674916531039" duration="1796000" />
+      <workItem from="1674916531039" duration="4715000" />
     </task>
     <task id="LOCAL-00001" summary="new home work">
       <created>1674916560728</created>
@@ -90,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674916775894</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="реализован паттерн &quot;Абстрактная фабрика&quot;">
+      <created>1674918489720</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674918489720</updated>
+    </task>
+    <task id="LOCAL-00005" summary="проект переименован">
+      <created>1674918686367</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674918686367</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +135,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new home work" />
     <MESSAGE value="new pattern hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="new pattern hw" />
+    <MESSAGE value="реализован паттерн &quot;Абстрактная фабрика&quot;" />
+    <MESSAGE value="проект переименован" />
+    <option name="LAST_COMMIT_MESSAGE" value="проект переименован" />
   </component>
 </project>

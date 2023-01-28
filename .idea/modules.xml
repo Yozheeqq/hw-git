@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/hw-git.iml" filepath="$PROJECT_DIR$/hw-git.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hw6-pattern/hw6-pattern.iml" filepath="$PROJECT_DIR$/hw6-pattern/hw6-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw6-pattern-abstract_factory/hw6-pattern-abstract_factory.iml" filepath="$PROJECT_DIR$/hw6-pattern-abstract_factory/hw6-pattern-abstract_factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw6-pattern-strategy/hw6-pattern-strategy.iml" filepath="$PROJECT_DIR$/hw6-pattern-strategy/hw6-pattern-strategy.iml" />
     </modules>
   </component>
 </project>
