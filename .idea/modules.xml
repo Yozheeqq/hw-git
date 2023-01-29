@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/hw-git.iml" filepath="$PROJECT_DIR$/hw-git.iml" />
       <module fileurl="file://$PROJECT_DIR$/hw6-pattern-abstract_factory/hw6-pattern-abstract_factory.iml" filepath="$PROJECT_DIR$/hw6-pattern-abstract_factory/hw6-pattern-abstract_factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw6-pattern-adapter/hw6-pattern-adapter.iml" filepath="$PROJECT_DIR$/hw6-pattern-adapter/hw6-pattern-adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/hw6-pattern-facade/hw6-pattern-facade.iml" filepath="$PROJECT_DIR$/hw6-pattern-facade/hw6-pattern-facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/hw6-pattern-strategy/hw6-pattern-strategy.iml" filepath="$PROJECT_DIR$/hw6-pattern-strategy/hw6-pattern-strategy.iml" />
     </modules>
