@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="784d307d-bd35-4b4d-b863-be7770d96f9e" name="Changes" comment="Реализация паттерна &quot;Фасад&quot;">
-      <change afterPath="$PROJECT_DIR$/hw6-pattern-adapter/hw6-pattern-adapter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw6-pattern-adapter/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw6-pattern-adapter/src/adapter/ArrowDigitalAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw6-pattern-adapter/src/arrows/ArrowWatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw6-pattern-adapter/src/digital/DigitalWatch.java" afterDir="false" />
+    <list default="true" id="784d307d-bd35-4b4d-b863-be7770d96f9e" name="Changes" comment="Реализация паттерна &quot;Адаптер&quot;">
+      <change afterPath="$PROJECT_DIR$/hw7-threads/hw7-threads.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw7-threads/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw7-threads/src/sharedvartiables/SharedBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw7-threads/src/users/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw7-threads/src/users/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw7-threads/src/users/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -45,7 +46,7 @@
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="hw6-pattern-strategy" />
@@ -67,6 +68,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="hw7-threads" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="hw6-pattern-abstract_factory" />
@@ -76,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
@@ -92,7 +101,9 @@
       <option name="presentableId" value="Default" />
       <updated>1674916529452</updated>
       <workItem from="1674916531039" duration="5585000" />
-      <workItem from="1674990750517" duration="3668000" />
+      <workItem from="1674990750517" duration="4032000" />
+      <workItem from="1676285177543" duration="2816000" />
+      <workItem from="1676312731613" duration="1312000" />
     </task>
     <task id="LOCAL-00001" summary="new home work">
       <created>1674916560728</created>
@@ -143,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674993218365</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Реализация паттерна &quot;Адаптер&quot;">
+      <created>1674994817473</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674994817473</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +185,18 @@
     <MESSAGE value="проект переименован" />
     <MESSAGE value="Реализация паттерна &quot;Стратегия&quot;" />
     <MESSAGE value="Реализация паттерна &quot;Фасад&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализация паттерна &quot;Фасад&quot;" />
+    <MESSAGE value="Реализация паттерна &quot;Адаптер&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализация паттерна &quot;Адаптер&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hw7-threads/src/users/Consumer.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
