@@ -2,7 +2,7 @@ package users;
 
 import sharedvartiables.SharedBuffer;
 
-import java.util.LinkedList;
+import java.util.NoSuchElementException;
 
 public class Consumer<T extends Integer> extends User<T> implements Runnable{
 
@@ -11,16 +11,17 @@ public class Consumer<T extends Integer> extends User<T> implements Runnable{
     }
 
     public void consume() throws InterruptedException{
-        getLock().lock();
+        buffer.getLock().lock();
         try {
-            while (getBuffer().isEmpty()) {
-                getBufferNotEmpty().await();
+            while (buffer.getBuffer().isEmpty()) {
+                buffer.getBufferNotEmpty().await();
             }
-            T value = getBuffer().removeFirst();
+            T value = buffer.getBuffer().removeFirst();
             System.out.println("Consumer consumed " + value);
-            getBufferNotFull().signalAll();
+            buffer.getBufferNotFull().signalAll();
+
         } finally {
-            getLock().unlock();
+            buffer.getLock().unlock();
         }
     }
 
@@ -29,6 +30,7 @@ public class Consumer<T extends Integer> extends User<T> implements Runnable{
         for (int i = 0; i < 100; ++i) {
             try {
                 consume();
+                Thread.sleep(1000);
             } catch (InterruptedException exc) {
                 System.out.println(exc.getMessage());
             }

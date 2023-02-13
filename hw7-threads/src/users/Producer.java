@@ -11,16 +11,16 @@ public class Producer<T extends Integer> extends User<T> implements Runnable{
     }
 
     public void produce(T value) throws InterruptedException {
-        getLock().lock();
+        buffer.getLock().lock();
         try {
-            while (getBuffer().size() == size) {
-                getBufferNotFull().await();
+            while (buffer.getBuffer().size() == size) {
+                buffer.getBufferNotFull().await();
             }
             System.out.println("Producer produced " + value);
-            getBuffer().add(value);
-            getBufferNotEmpty().signalAll();
+            buffer.getBuffer().add(value);
+            buffer.getBufferNotEmpty().signalAll();
         } finally {
-            getLock().unlock();
+            buffer.getLock().unlock();
         }
     }
 
@@ -29,6 +29,7 @@ public class Producer<T extends Integer> extends User<T> implements Runnable{
         for (int i = 0; i < 100; ++i) {
             try {
                 produce((T)(Integer)(i));
+                Thread.sleep(100);
             } catch (InterruptedException exc) {
                 System.out.println(exc.getMessage());
             }

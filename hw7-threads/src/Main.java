@@ -9,7 +9,8 @@ public class Main {
         SharedBuffer<Integer> buffer = new SharedBuffer<>();
         Thread producer = new Thread(new Producer<>(buffer, 10));
         Thread consumer = new Thread(new Consumer<>(buffer));
-        producer.start();
+
         consumer.start();
+        producer.start();
     }
 }
