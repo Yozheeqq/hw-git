@@ -2,8 +2,6 @@ package users;
 
 import sharedvartiables.SharedBuffer;
 
-import java.util.NoSuchElementException;
-
 public class Consumer<T extends Integer> extends User<T> implements Runnable{
 
     public Consumer(SharedBuffer<T> buffer) {
