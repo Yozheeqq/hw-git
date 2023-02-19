@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="784d307d-bd35-4b4d-b863-be7770d96f9e" name="Changes" comment="Исправлены баги и ворнинги">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw8-threads-files/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw8-threads-files/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw8-threads-files/src/main/java/org/example/filemanager/FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw8-threads-files/src/main/java/org/example/filemanager/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="784d307d-bd35-4b4d-b863-be7770d96f9e" name="Changes" comment="1) Есть методы для загрузки файлов и сохранения на компьюетре">
+      <change beforePath="$PROJECT_DIR$/hw8-threads-files/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw8-threads-files/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw8-threads-files/src/main/java/org/example/filemanager/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw8-threads-files/src/main/java/org/example/filemanager/FileReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +111,7 @@
       <workItem from="1676285177543" duration="2816000" />
       <workItem from="1676312731613" duration="3231000" />
       <workItem from="1676830693675" duration="2057000" />
-      <workItem from="1676834023182" duration="4640000" />
+      <workItem from="1676834023182" duration="5127000" />
     </task>
     <task id="LOCAL-00001" summary="new home work">
       <created>1674916560728</created>
@@ -197,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676315441372</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1) Есть методы для загрузки файлов и сохранения на компьюетре">
+      <created>1676839013762</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676839013762</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,18 +225,11 @@
     <MESSAGE value="ДЗ многопоточка.&#10;Есть класс SharedBuffer, где хранится единый буфер.&#10;Два класса Producer, Consumer реализуют интерфейс Runnable с методом run.&#10;Внутри run вызываются внутренние методы. &#10;Для выполнения проверки, что можно совершить операцию, я завел две переменные Condition (bufferNotFull, bufferNotEmpty), управляю им через await и signalAll" />
     <MESSAGE value="Исправлены ошибки с работой многопоточки" />
     <MESSAGE value="Исправлены баги и ворнинги" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправлены баги и ворнинги" />
+    <MESSAGE value="1) Есть методы для загрузки файлов и сохранения на компьюетре&#10;2) В проекте описаны TODO элементы" />
+    <MESSAGE value="1) Есть методы для загрузки файлов и сохранения на компьюетре" />
+    <option name="LAST_COMMIT_MESSAGE" value="1) Есть методы для загрузки файлов и сохранения на компьюетре" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hw8-threads-files/src/main/java/org/example/filemanager/FileReader.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="buffer" />

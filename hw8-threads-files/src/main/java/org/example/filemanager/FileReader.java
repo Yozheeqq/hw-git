@@ -17,6 +17,7 @@ public class FileReader extends Manager{
             logger.log(Level.WARNING, "destination path is empty");
         }
         try {
+            // TODO Декомпозиция
             URL url = new URL(path);
             InputStream inputStream;
             try {
@@ -27,6 +28,8 @@ public class FileReader extends Manager{
             }
             FileOutputStream outputStream;
             try {
+                // TODO Заменить file на название файла, получать из метода getFileName
+                // WARNING Если в файле есть символы ? и тп, то будет эксепшн
                 outputStream =new FileOutputStream(destinationPath + "\\" + "file");
             } catch (FileNotFoundException exc) {
                 logger.warning("FileOutputStream is wrong!");

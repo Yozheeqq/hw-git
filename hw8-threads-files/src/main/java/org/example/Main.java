@@ -9,6 +9,7 @@ import java.util.logging.Logger;
 
 public class Main {
     public static void main(String[] args) {
+        // TODO Сделать декомпозицию
         FileReader reader = new FileReader();
         Scanner scanner = new Scanner(System.in);
         Logger logger = Logger.getLogger(Main.class.getName());
@@ -25,6 +26,7 @@ public class Main {
                     reader.setDestinationPath(command.get(1));
                     break;
                 case "/help":
+                    // TODO Добавить меню помощи
                     break;
                 default:
                     logger.log(Level.WARNING, "Wrong command!");
