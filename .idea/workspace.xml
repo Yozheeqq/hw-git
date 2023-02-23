@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="784d307d-bd35-4b4d-b863-be7770d96f9e" name="Changes" comment="1) Добавлены TODO элементы">
-      <change afterPath="$PROJECT_DIR$/hw8-threads-files/src/test/java/org/example/filemanager/FileReaderTest.java" afterDir="false" />
+    <list default="true" id="784d307d-bd35-4b4d-b863-be7770d96f9e" name="Changes" comment="1) Сделана декомпозиция&#10;2) Изменен метод для получения названия файла&#10;3) Создан класс с тестами">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw8-threads-files/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw8-threads-files/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw8-threads-files/src/main/java/org/example/filemanager/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw8-threads-files/src/main/java/org/example/filemanager/FileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw8-threads-files/src/main/java/org/example/filemanager/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw8-threads-files/src/main/java/org/example/filemanager/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw8-threads-files/src/test/java/org/example/filemanager/FileReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw8-threads-files/src/test/java/org/example/filemanager/FileReaderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +36,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "18",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -60,55 +58,93 @@
       <recent name="org.example.filemanager" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="hw6-pattern-strategy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="hw6-pattern-facade" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="hw6-pattern-adapter" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="hw7-threads" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+  <component name="RunManager" selected="JUnit.FileReaderTest.getFileName_WHEN_givenStringIsNotPath">
+    <configuration name="FileReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hw8-threads-files" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.filemanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.filemanager" />
+      <option name="MAIN_CLASS_NAME" value="org.example.filemanager.FileReaderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileReaderTest.getFileName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw8-threads-files" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.filemanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.filemanager" />
+      <option name="MAIN_CLASS_NAME" value="org.example.filemanager.FileReaderTest" />
+      <option name="METHOD_NAME" value="getFileName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileReaderTest.getFileName_WHEN_empty_THEN_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw8-threads-files" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.filemanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.filemanager" />
+      <option name="MAIN_CLASS_NAME" value="org.example.filemanager.FileReaderTest" />
+      <option name="METHOD_NAME" value="getFileName_WHEN_empty_THEN_empty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileReaderTest.getFileName_WHEN_givenStringIsNotPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw8-threads-files" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.filemanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.filemanager" />
+      <option name="MAIN_CLASS_NAME" value="org.example.filemanager.FileReaderTest" />
+      <option name="METHOD_NAME" value="getFileName_WHEN_givenStringIsNotPath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileReaderTest.getFileName_WHEN_null_THEN_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw8-threads-files" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.filemanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.filemanager" />
+      <option name="MAIN_CLASS_NAME" value="org.example.filemanager.FileReaderTest" />
+      <option name="METHOD_NAME" value="getFileName_WHEN_null_THEN_empty" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.Main" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.FileReaderTest.getFileName_WHEN_givenStringIsNotPath" />
+        <item itemvalue="JUnit.FileReaderTest" />
+        <item itemvalue="JUnit.FileReaderTest.getFileName" />
+        <item itemvalue="JUnit.FileReaderTest.getFileName_WHEN_empty_THEN_empty" />
+        <item itemvalue="JUnit.FileReaderTest.getFileName_WHEN_null_THEN_empty" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +162,9 @@
       <workItem from="1676312731613" duration="3231000" />
       <workItem from="1676830693675" duration="2057000" />
       <workItem from="1676834023182" duration="5159000" />
-      <workItem from="1676841497732" duration="2108000" />
+      <workItem from="1676841497732" duration="3422000" />
+      <workItem from="1677012175415" duration="270000" />
+      <workItem from="1677147158253" duration="929000" />
     </task>
     <task id="LOCAL-00001" summary="new home work">
       <created>1674916560728</created>
@@ -219,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676839164945</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1) Сделана декомпозиция&#10;2) Изменен метод для получения названия файла&#10;3) Создан класс с тестами">
+      <created>1676843897831</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676843897831</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +295,8 @@
     <MESSAGE value="1) Есть методы для загрузки файлов и сохранения на компьюетре&#10;2) В проекте описаны TODO элементы" />
     <MESSAGE value="1) Есть методы для загрузки файлов и сохранения на компьюетре" />
     <MESSAGE value="1) Добавлены TODO элементы" />
-    <option name="LAST_COMMIT_MESSAGE" value="1) Добавлены TODO элементы" />
+    <MESSAGE value="1) Сделана декомпозиция&#10;2) Изменен метод для получения названия файла&#10;3) Создан класс с тестами" />
+    <option name="LAST_COMMIT_MESSAGE" value="1) Сделана декомпозиция&#10;2) Изменен метод для получения названия файла&#10;3) Создан класс с тестами" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

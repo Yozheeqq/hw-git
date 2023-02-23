@@ -12,7 +12,7 @@ public class FileReader extends Manager {
     public void loadFiles(List<String> paths) {
         if (destinationPath == null) {
             logger.log(Level.WARNING, "destination path is empty");
-            return;
+            throw new UnsupportedOperationException("destination path is empty");
         }
         ExecutorService executor = Executors.newFixedThreadPool(paths.size());
         List<Future<?>> futures = new ArrayList<>();
@@ -58,7 +58,10 @@ public class FileReader extends Manager {
         }
     }
 
-    private static String getFileName(String absolutePath) {
+    public static String getFileName(String absolutePath) {
+        if (absolutePath == null) {
+            throw new IllegalArgumentException("Пустой путь");
+        }
         List<Character> forbiddenChars = List.of('/', '*', '?', ':', '"', '<', '>', '|');
         int lastSlashIndex = absolutePath.lastIndexOf("/");
         if (lastSlashIndex != -1 && lastSlashIndex < absolutePath.length() - 1) {
